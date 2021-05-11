@@ -2,6 +2,8 @@
 
 This is the main research method used for the MSc thesis completion. It is based on [TextING](https://github.com/CRIPAC-DIG/TextING) and introduces a pipeline of pre-processing steps and modifications which convert this, from a non-contextual method, to a contextual method with quantized embeddings.
 
+Link to the dataset used for the experiments: [Dataset](https://drive.google.com/file/d/1DT5wZiObwSy2WlFjPWXR_fKJ-iC-6kPZ/view?usp=sharing)
+
 ## Requirements
 
 * Python 3.6+

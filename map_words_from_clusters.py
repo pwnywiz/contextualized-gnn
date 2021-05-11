@@ -68,10 +68,10 @@ def map_subwords_into_centroids(document, tokenizer, model, device, truncate_len
 
 new_file_name = 'search_results_bert'
 
-if os.path.exists('{}.txt'.format(new_file_name)):
+if os.path.exists('data/corpus/{}.txt'.format(new_file_name)):
     print('Removing old file')
-    os.remove('{}.txt'.format(new_file_name))
-new_file = open('{}.txt'.format(new_file_name), "w", encoding='utf8')
+    os.remove('data/corpus/{}.txt'.format(new_file_name))
+new_file = open('data/corpus/{}.txt'.format(new_file_name), "w", encoding='utf8')
 
 print('Writing mapped subwords to file')
 for line in sr.readlines():
